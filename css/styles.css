@@ -1,5 +1,48 @@
+header{
+	position: absolute;
+	top: 0;
+	z-index: 110;
+	width: 100%;
+	    background: #000;
+    opacity: .8;
+    height: 100px;
+    line-height: 100px;
+    border-top: 4px solid #000;
+}
+
+
+header img{
+	height: 70px;
+	z-index: 112;
+}
+
+header p{
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 12.1px;
+		line-height: 100px;
+}
+
+.header-second{
+	text-align: right;
+
+}
+
+header a{
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	background: #0887b2;
+	padding: 20px 30px;
+	margin-left: 5%;
+	z-index: 111;
+
+}
 .slide1, .slide2, .slide3{
-	height: 830px;
+	height: 940px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -37,21 +80,26 @@
 .banner-excerpt-top{
 	text-align: center;
 	position: absolute;
-	top: 10%;
+	top: 19%;
 	width: 100%;
 }
 
 .banner-excerpt-top p{
 	color: #fff;
-	font-size: 52px;
+	font-size: 48px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
+	width: 50%;
+	margin: 0 auto;
+	    line-height: 1em;
+    letter-spacing: 1.5px;
 
 
 }
 
 .banner-excerpt-top p > strong{
 		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
 
 }
 
@@ -69,10 +117,10 @@
 .title h2{
 	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
-	text-transform: uppercase;
 	font-size: 30px;
 	text-align: center;
 	font-weight: 200;
+	margin-top: 0;
 }
 
 .time-bg{
@@ -80,6 +128,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background: #2782df;
 }
 
 .event-step2{
@@ -87,6 +136,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background: #4b55e0;
 }
 
 .event-step3{
@@ -94,6 +144,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background: #1d429c;
 }
 
 .event-step4{
@@ -101,6 +152,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
 
 .event-step4 h1{
@@ -206,12 +258,17 @@
 	background-size: cover;
 }
 
-.brands h2{
+.brands h2, .integrations h2{
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 32px;
+	font-weight: 700;
 	color: #fff;
 	padding-top: 110px;
+}
+
+.integrations h2{
+	padding: 40px 0 !important;
 }
 
 .brands ul{
@@ -258,7 +315,73 @@ max-height: 120px;
 	max-width: 150px;
 }
 
+.contact{
+	padding: 110px 0;
+	text-align: center;
+}
 
+.contact strong{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #0c475e;
+
+}
+
+.contact a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 21.8px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	background: #4dd2ff;
+	padding: 30px 75px;
+    margin-left: 5%;
+}
+
+.contact p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	font-weight: 200;
+	color: #0c475e;
+}
+
+
+.contact a:hover, .contact a:focus{
+	text-decoration: none;
+}
+
+
+footer{
+	background: #002938;
+
+}
+
+.top-footer{
+	text-align: center;
+	padding: 50px 0;
+	border-bottom: 4px solid #264956;
+}
+
+.top-footer img{
+	max-width: 410px;
+	max-height: 120px;
+}
+
+.bottom-footer{
+	color: #fff;
+	font-size: 14px;
+	padding: 25px 0;
+	line-height: 30px;
+}
+
+.tree-logo{
+	margin-left: 5%;
+}
+
+.bf-first{
+	text-align: right;
+}
 @media (max-width: 1024px){
 	.brand-item, .custom-tabs .nav-tabs>li{
 		width: 50%;
@@ -269,5 +392,110 @@ max-height: 120px;
 	.brand-item, .custom-tabs .nav-tabs>li{
 		width: 100%;
 		text-align: center;
+		font-family: 'Source Sans Pro', sans-serif;
+
 	}
+}
+
+
+/* TIMELINE CSS*/
+
+
+.pre-event{
+	padding-top: 80px;
+}
+
+.pre-event h3, .event-step2 h3, .event-step3 h3{
+	    background: url(../img/rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10px 20px;
+    width: 45%;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.4em;
+}
+
+
+.event-step2 h3{
+	width: 50% !important;
+}
+
+.pre-event h4, .event-step2 h4, .event-step3 h4{
+	    color: #fff;
+    font-size: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.pre-event ul, .event-step2 ul, .event-step3 ul{
+	margin-top: 30px;
+}
+.pre-event li, .event-step2 li, .event-step3 li{
+	list-style-type: none;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	padding-bottom: 17px;
+}
+
+.pre-event li:before, .event-step2 li:before, .event-step3 li:before{
+	content: "\f054";
+	  font-family: FontAwesome;
+	  margin-left: -1.3em;
+	      width: 1.3em;
+    display: inline-block;
+}
+
+@media(min-width: 1550px){
+	.container{
+		width: 1530px !important;
+	}
+}
+
+.event-step2{
+	position: relative;
+    z-index: 1;
+
+}
+.event-step2:before{
+	top: 0;
+    -webkit-transform: skewY(-7.5deg);
+    transform: skewY(-7.5deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+}
+
+.event-step3{
+	position: relative;
+    z-index: 1;
+
+}
+.event-step3:before{
+	top: 0;
+    -webkit-transform: skewY(-7.5deg);
+    transform: skewY(-7.5deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
 }
