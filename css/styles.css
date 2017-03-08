@@ -22,7 +22,7 @@ header p{
 		text-transform: uppercase;
 		font-weight: 700;
 		font-size: 12.1px;
-		line-height: 100px;
+		line-height: 90px;
 }
 
 .header-second{
@@ -31,16 +31,22 @@ header p{
 }
 
 header a{
-	color: #fff;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	background: #0887b2;
-	padding: 20px 30px;
-	margin-left: 5%;
-	z-index: 111;
-
+	    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    background: #0887b2;
+    padding: 16px 45px;
+    margin-left: 3%;
+    z-index: 111;
 }
+
+header a:hover, header a:focus{
+	color: #fff;
+	text-decoration: none;
+}
+
+
 .slide1, .slide2, .slide3{
 	height: 940px;
 	background-position: center;
@@ -67,11 +73,22 @@ header a{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
-	height: 375px;
-	top: 55%;
+	height: 470px;
+	top: 49%;
 	width: 100%;
 }
 
+.bottom-slider{
+	background: url("../img/bottom-slider.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	height: 90px;
+	bottom: 0;
+	z-index: 130;
+	width: 100%;
+}
 #header-carousel{
 	position: relative;
 }
@@ -128,7 +145,7 @@ header a{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: #2782df;
+	/*background: #2782df;*/
 }
 
 .event-step2{
@@ -136,7 +153,7 @@ header a{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: #4b55e0;
+	/*background: #4b55e0;*/
 }
 
 .event-step3{
@@ -144,7 +161,7 @@ header a{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: #1d429c;
+	/*background: #1d429c;*/
 }
 
 .event-step4{
@@ -152,6 +169,8 @@ header a{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	    padding-top: 19.5%;
+	    padding-bottom: 94px;
 
 }
 
@@ -161,13 +180,17 @@ header a{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
 	font-size: 60px;
+	    width: 60%;
+    margin: 0 auto;
 }
-
+.event-step4 img{
+	margin-top: 70px;
+}
 .custom-tabs .nav-tabs>li{
 	width: 25%;
 	text-align: center;
 	border: none !important;
-	height: 220px;
+	height: 230px;
 }
 
 .custom-tabs .nav-tabs>li a{
@@ -175,13 +198,20 @@ header a{
 }
 .custom-tabs .nav-tabs>li img{
 	width: 240px !important;
+	margin-top: 12px;
+    margin-bottom: 13px;
 }
 .custom-tabs .nav-tabs>li p{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #fff;
-	font-size: 27px;
+	font-size: 35px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 600;
+	    width: 80%;
+    margin: 0 auto;
+    line-height: 35px;
+    letter-spacing: 1.1px;
+
 }
 .custom-tabs .nav-tabs>li:nth-child(2){
 	background: #002938;
@@ -233,22 +263,29 @@ header a{
 	text-align: center;
 	color: #fff;
 	padding: 120px 0;
+	padding-bottom: 145px;
 }
 
 .content h3{
-	font-weight: 700;
-	font-size: 42px;
-	font-family: 'Source Sans Pro', sans-serif;
-	text-transform: uppercase;
+	    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-top: -5px !important;
+    letter-spacing: 3.5px;
 
 }
 
 .content p{
 
 	font-size: 24px;
-	font-family: 'Source Sans Pro', sans-serif;
-	width: 60%;
-	margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px !important;
+    font-weight: 200;
+    letter-spacing: 3px;
+    line-height: 35px;
 }
 
 .brands{
@@ -260,15 +297,18 @@ header a{
 
 .brands h2, .integrations h2{
 	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 32px;
-	font-weight: 700;
-	color: #fff;
-	padding-top: 110px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 100px;
+    letter-spacing: 1.9px;
+    line-height: 42px;
 }
 
 .integrations h2{
 	padding: 40px 0 !important;
+	    padding-top: 60px !important;
 }
 
 .brands ul{
@@ -291,6 +331,13 @@ padding: 100px 0;
 	width: 100%;
 	display: inline-flex;
 	flex-wrap: wrap;
+	margin-top: 80px;
+	    padding-bottom: 105px;
+}
+
+.integrations .brands-container{
+	margin-top: 20px !important;
+	    padding-bottom: 65px !important;
 }
 
 .brand-item{
@@ -306,37 +353,37 @@ padding: 100px 0;
 
 .integrations img{
 	
-width: 150px;
-max-height: 120px;
+
+max-height: 150px;
 }
 
 .brands img{
-	max-height: 70px !important;
-	max-width: 150px;
+	max-height: 150px !important;
 }
 
 .contact{
-	padding: 110px 0;
+	padding: 127px 0;
 	text-align: center;
 }
 
 .contact strong{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 36px;
-	font-weight: 700;
+	font-weight: 500;
 	color: #0c475e;
+	letter-spacing: 1.1px;
 
 }
 
 .contact a{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 21.8px;
-	font-weight: 900;
+	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
 	background: #4dd2ff;
 	padding: 30px 75px;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .contact p{
@@ -344,6 +391,7 @@ max-height: 120px;
 	font-size: 36px;
 	font-weight: 200;
 	color: #0c475e;
+	letter-spacing: 1.1px;
 }
 
 
@@ -359,8 +407,8 @@ footer{
 
 .top-footer{
 	text-align: center;
-	padding: 50px 0;
-	border-bottom: 4px solid #264956;
+    padding: 55px 0;
+    border-bottom: 2px solid #264956;
 }
 
 .top-footer img{
@@ -370,17 +418,24 @@ footer{
 
 .bottom-footer{
 	color: #fff;
-	font-size: 14px;
-	padding: 25px 0;
+	font-size: 12px;
+	padding: 20px 0;
 	line-height: 30px;
+	font-weight: 300;
+    letter-spacing: 2.2px;
 }
 
 .tree-logo{
-	margin-left: 5%;
+	margin-left: 2%;
 }
 
 .bf-first{
 	text-align: right;
+	padding-right: 4%;
+}
+
+.bf-second{
+	padding-left: 4%;
 }
 @media (max-width: 1024px){
 	.brand-item, .custom-tabs .nav-tabs>li{
@@ -416,11 +471,12 @@ footer{
     font-weight: 900;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3.4em;
+    color: #0c475e;
 }
 
 
 .event-step2 h3{
-	width: 50% !important;
+	width: 60% !important;
 }
 
 .pre-event h4, .event-step2 h4, .event-step3 h4{
@@ -498,4 +554,121 @@ footer{
     right: 0;
     z-index: -1;
     -webkit-backface-visibility: hidden;
+}
+
+.tab-content{
+	    background-color: #002937; 
+}
+
+@media (min-width: 1700px){
+	.brands > .container{
+		width: 1688px !important;
+		padding: 0 !important;
+	}
+
+	.brand-item{
+		text-align: left;
+	}
+
+
+}
+
+@media (min-width: 1730px){
+	.integrations > .container{
+		width: 1706px !important;
+	}
+}
+
+
+/* ANGLES CSS */
+
+.angles{
+	position: relative;
+}
+
+#lp-section1{
+	    
+	position: absolute;
+    right: 0;
+    text-align: right;
+    background: url(../img/laptop-mac.png);
+    height: 660px;
+    z-index: 99;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    top: 10%;
+}
+#lp-section2{
+	    position: absolute;
+    left: -3%;
+    background: url(../img/phones.png);
+    height: 859px;
+    top: -14%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#lp-section3{
+	    
+	    position: absolute;
+    right: 0;
+    text-align: right;
+    background: url(../img/ipad.png);
+    height: 880px;
+    top: -30%;
+    z-index: 99;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+.time-bg{
+	height: 950px;
+}
+
+.event-step2{
+	height: 800px;
+}
+
+
+/* MOBILE */
+
+
+@media (max-width: 768px){
+	.header-second{
+		display: none;
+	}
+
+	.banner-excerpt-top p{
+		font-size: 25px;
+	}
+
+	.pre-event h3, .event-step2 h3, .event-step3 h3{
+		width: 100% !important;
+	}
+
+	.time-bg{
+		height: 1100px;
+	}
+
+	.event-step2{height: 1200px;}
+
+	.contact a{
+		margin-left: 0;
+		padding: 20px 25px;
+	}
+
+	.top-footer img{
+		max-width: 250px;
+	}
+
+	.bf-first, .bf-second{
+		padding: 0 !important;
+		text-align: center;
+	}
+
+	.brands img, .integrations img{
+		max-width: 250px;
+	}
 }
