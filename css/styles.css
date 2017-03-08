@@ -672,3 +672,14 @@ footer{
 		max-width: 250px;
 	}
 }
+
+
+@media (max-width: 1600px){
+	.event-step4 img{
+		max-width: 100%;
+	}
+
+	.brands img, .integrations img{
+		max-width: 250px;
+	}
+}
