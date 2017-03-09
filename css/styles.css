@@ -636,6 +636,10 @@ footer{
 
 
 @media (max-width: 768px){
+
+	header{
+		text-align: center;
+	}
 	.header-second{
 		display: none;
 	}
@@ -682,4 +686,90 @@ footer{
 	.brands img, .integrations img{
 		max-width: 250px;
 	}
+}
+
+
+.center-line{
+	    position: absolute;
+    width: 28px;
+    height: 1615px;
+    background: url(../img/center-line.png);
+    top: 17%;
+    left: 49.2%;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pre-event .col-md-6{
+	    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.pre-event h4, .event-step2 h4, .event-step3 h4{
+	width: 70%;
+    font-size: 35px;
+    /* letter-spacing: 2px; */
+    margin-left: 6px;
+}
+
+.event-step2 h4, .event-step3 h4{
+	width: 100% !important;
+}
+
+.pre-event ul, .event-step2  ul, .event-step3  ul{
+	margin-top: 34px;
+    margin-left: -10px;
+}
+
+.pre-event li, .event-step2 li, .event-step3 li{
+	letter-spacing: 1.9px;
+	font-weight: 200;
+}
+
+ .event-step2 h3{
+ 	    width: 78% !important;
+    font-size: 3.35em !important;
+ }
+
+ .event-step2 .col-md-5.col-md-offset-7{
+ 	    padding-left: 6%;
+ }
+
+ .event-step3 .col-md-6{
+ 	margin-left: 2%;
+ }
+
+ .event-step3 h3{
+ 	width: 48%;
+ }
+
+@media (max-width: 1024px){
+	.center-line{
+		display: none;
+	}
+}
+
+
+.scroll{
+	text-align: center;
+}
+
+.scroll img{
+	    width: 19px;
+    margin-left: -6px;
+    margin-top: 5px;
+}
+
+.scroll p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.scroll a:focus, .scroll a:hover{
+	text-decoration: none;
 }
