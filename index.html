@@ -3,14 +3,22 @@
 <head>
 	<title>EventPass Pro</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/custom-styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://scrollme.nckprsn.com/js/prefixfree.min.js"></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript"  src="js/jquery.scrollme.js"></script>
+
+
 </head>
 <body>
+
+
 
 <!-- Carousel -->
 <div id="header-carousel" class="carousel slide" data-ride="carousel">
@@ -45,7 +53,7 @@
 
 <!-- Timeline -->
 <div class="angles">
-<div class="time-bg">
+<div class="time-bg magicDiv">
 	<div class="container">
 	<div style="height: 100px; " class="scroll">
 		<a href="#"><img src="img/scroll-icon.png"><p>scroll for more</p></a>
@@ -67,7 +75,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-5 col-md-offset-1" id="lp-section1">
+			<div class="col-md-5 col-md-offset-1 animateme scrollme" id="lp-section1" data-when="enter" data-from="0.75" data-to="0" data-opacity="0" data-translatex="400">
 			</div>
 		</div>
 	</div>
@@ -75,13 +83,13 @@
 
 <!-- During Event -->
 
-<div class="event-step2">
+<div class="event-step2 magicDiv">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5" id="lp-section2">
+			<div class="col-md-5 animateme scrollme" id="lp-section2"  data-when="enter" data-from="0.75" data-to="0" data-opacity="0" data-translatex="400">
 			</div>
 
-			<div class="col-md-5 col-md-offset-7">
+			<div class="col-md-5 col-md-offset-7" data-when="enter" data-from="0.75" data-to="0" data-opacity="0" data-translatex="400">
 				<h3>During Event</h3>
 				<h4>Everything you need to provide a flawless attendee experience</h4>
 				<ul>
@@ -101,7 +109,7 @@
 </div>
 
 <!-- Post Event -->
-<div class="event-step3">
+<div class="event-step3 magicDiv">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -115,7 +123,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-6" id="lp-section3">
+			<div class="col-md-6 scrollme animateme" id="lp-section3" data-when="enter" data-from="0.75" data-to="0" data-opacity="0" data-translatex="400">
 				
 			</div>
 		</div>
@@ -124,10 +132,10 @@
 <div class="center-line"></div>
 </div>
 
-<div class="event-step4">
+<div class="event-step4 magicDiv " >
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12" style="text-align: center;">
+			<div class="col-md-12 scrollme animateme" style="text-align: center;" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
 				<h1>All Controlled by the Admin (you) built for 3 different personas</h1>
 				<img src="img/devices2.png" class="">
 			</div>
@@ -137,7 +145,7 @@
 
 <!-- Tabs -->
 
-<div class="custom-tabs">
+<div class="custom-tabs magicDiv">
 	 <ul class="nav nav-tabs">
 		    <li class="active"><a data-toggle="tab" href="#sports"><div><img src="img/logo.png"></div><p>for Sports Competition</p></a></li>
 		    <li><a data-toggle="tab" href="#conferences"><div><img src="img/logo.png" ></div><p>FOR CONFERENCES &amp; TRADE SHOWS</p></a></li>
@@ -177,7 +185,7 @@
 
 <!-- Brands -->
 
-<div class="brands">
+<div class="brands magicDiv">
 	<div class="container">
 		<h2>From sporting events to college graduations - EPP is a flexible
 		<br>platform that can be tailored to your event.</h2>
@@ -210,7 +218,7 @@
 
 <!-- Integrations -->
 
-<div class="integrations">
+<div class="integrations magicDiv">
 	<div class="container">
 			<h2>Easily intergrate with any 3rd party service provider</h2>
 		<div class="brands-container">
@@ -235,7 +243,7 @@
 
 <!-- Contact -->
 
-<div class="contact">
+<div class="contact magicDiv">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -247,7 +255,8 @@
 
 <!-- Footer -->
 
-<footer>
+<footer >
+<div class="magicDiv">
 	<div class=" top-footer">
 	<div class="container">
 		<div class="row">
@@ -270,6 +279,32 @@
 			</div>
 		</div>
 	</div>
+	</div>
 </footer>
+
+<!--<script type="text/javascript">
+	(function($) {
+    $(document).ready(function() {
+        $.jScrollability([
+            {
+                'selector': '#lp-section1',
+                'start': '.pre-event',
+                'end': '.event-step4',
+                'fn': {
+                    'left': {
+                        'start': 100,
+                        'end': 50,
+                        'unit': '%'
+                    }
+                }
+            }
+        ]);
+    });
+})(jQuery);
+
+
+
+</script>-->
+ 
 </body>
 </html>

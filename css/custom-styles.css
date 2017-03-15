@@ -1,3 +1,6 @@
+body{
+	    overflow-x: hidden;
+}
 header{
 	position: absolute;
 	top: 0;
@@ -146,6 +149,7 @@ header a:hover, header a:focus{
 	background-repeat: no-repeat;
 	background-size: cover;
 	/*background: #2782df;*/
+	overflow: hidden !important;
 }
 
 .event-step2{
@@ -162,6 +166,9 @@ header a:hover, header a:focus{
 	background-repeat: no-repeat;
 	background-size: cover;
 	/*background: #1d429c;*/
+	  clear: both;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .event-step4{
@@ -458,6 +465,7 @@ footer{
 
 .pre-event{
 	padding-top: 80px;
+	overflow: hidden !important;
 }
 
 .pre-event h3, .event-step2 h3, .event-step3 h3{
@@ -597,7 +605,7 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top left;
-    top: 10%;
+    top: 25%;
 }
 #lp-section2{
 	    position: absolute;
@@ -625,6 +633,9 @@ footer{
 }
 .time-bg{
 	height: 950px;
+	    clear: both;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .event-step2{
