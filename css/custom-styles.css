@@ -729,6 +729,7 @@ footer{
     z-index: 1000;
     background-repeat: no-repeat;
     background-size: cover;
+		display: none;
 }
 
 .pre-event .col-md-6{
