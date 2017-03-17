@@ -198,8 +198,20 @@ header a:hover, header a:focus{
 	text-align: center;
 	border: none !important;
 	height: 230px;
+	cursor: pointer;
+	position: relative;
 }
-
+.tab-bottom{
+	background: url(../img/white-bg.png);
+    position: absolute;
+    bottom: -30px !important;
+    width: 100%;
+    height: 33px;
+		display: none;
+		background-size: cover;
+		background-position: center;
+		z-index: 999;
+}
 .custom-tabs .nav-tabs>li a{
 	border: none !important;
 }
@@ -257,6 +269,10 @@ header a:hover, header a:focus{
 
 .custom-tabs .nav-tabs .active{
 	background: #fff !important;
+}
+
+.custom-tabs .nav-tabs .active .tab-bottom{
+	display: block;
 }
 
 .custom-tabs .tab-pane{
@@ -336,8 +352,11 @@ padding: 100px 0;
 
 .brands-container{
 	width: 100%;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
 	display: inline-flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	margin-top: 80px;
 	    padding-bottom: 105px;
 }
@@ -359,7 +378,7 @@ padding: 100px 0;
 }
 
 .integrations img{
-	
+
 
 max-height: 150px;
 }
@@ -565,7 +584,7 @@ footer{
 }
 
 .tab-content{
-	    background-color: #002937; 
+	    background-color: #002937;
 }
 
 @media (min-width: 1700px){
@@ -595,7 +614,7 @@ footer{
 }
 
 #lp-section1{
-	    
+
 	position: absolute;
     right: 0;
     text-align: right;
@@ -618,7 +637,7 @@ footer{
 
 }
 #lp-section3{
-	    
+
 	    position: absolute;
     right: 0;
     text-align: right;
@@ -757,6 +776,10 @@ footer{
 
 @media (max-width: 1024px){
 	.center-line{
+		left: 0%;
+	}
+
+	#lp-section2{
 		display: none;
 	}
 }
@@ -783,4 +806,13 @@ footer{
 
 .scroll a:focus, .scroll a:hover{
 	text-decoration: none;
+}
+
+@media (min-width: 1025px) and (max-width: 1500px){
+	.custom-tabs .nav-tabs>li p{
+		font-size: 23px;
+	}
+	.tab-bottom{
+		bottom: -24px !important;
+	}
 }
