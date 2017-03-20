@@ -49,7 +49,7 @@ header a:hover, header a:focus{
 }
 
 
-.slide1, .slide2, .slide3{
+.slide1, .slide2, .slide3, .slide4{
 	height: 940px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -67,6 +67,9 @@ header a:hover, header a:focus{
 
 .slide3{
 	background: url("../img/banner/slide3.jpg");
+}
+.slide4{
+	background: url("../img/banner/slide4.jpg");
 }
 
 .banner-excerpt-bottom{
@@ -104,7 +107,7 @@ header a:hover, header a:focus{
 }
 
 .banner-excerpt-top p{
-	color: #fff;
+	color: #232323;
 	font-size: 48px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
@@ -296,14 +299,14 @@ background: #bb3537;
 	display: block;
 }
 
-.custom-tabs #sports{
+.custom-tabs #sports, .tab-banner .item:first-child{
 	background: url("../img/red-bg.png");
 	background-position: center bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.custom-tabs #conferences{
+.custom-tabs #conferences, .tab-banner .item:nth-child(2){
 	background: url("../img/tab2-bg.png");
 	background-position: center bottom;
 	background-size: cover;
@@ -311,7 +314,7 @@ background: #bb3537;
 }
 
 
-.custom-tabs #communities{
+.custom-tabs #communities, .tab-banner .item:nth-child(3){
 
 		background: url("../img/tab3-bg.png");
 		background-position: center bottom;
@@ -320,7 +323,7 @@ background: #bb3537;
 
 }
 
-.custom-tabs #destinations{
+.custom-tabs #destinations, .tab-banner .item:nth-child(4){
 
 		background: url("../img/tab4-bg.png");
 		background-position: center bottom;
@@ -712,7 +715,7 @@ footer{
 /* MOBILE */
 
 
-@media (max-width: 768px){
+@media (max-width: 992px){
 
 	header{
 		text-align: center;
@@ -722,7 +725,11 @@ footer{
 	}
 
 	.banner-excerpt-top p{
-		font-size: 25px;
+		font-size: 32px;
+	}
+
+	.banner-excerpt-top p{
+		width: 90%;
 	}
 
 	.pre-event h3, .event-step2 h3, .event-step3 h3{
@@ -730,10 +737,10 @@ footer{
 	}
 
 	.time-bg{
-		height: 1100px;
+		height: 1200px;
 	}
 
-	.event-step2{height: 1200px;}
+	.event-step2{height: 1300px;}
 
 	.contact a{
 		margin-left: 0;
@@ -751,6 +758,18 @@ footer{
 
 	.brands img, .integrations img{
 		max-width: 250px;
+	}
+
+	.event-step4{
+		padding-top: 70%;
+	}
+	.event-step4 h1{
+		font-size: 40px;
+		width: 90%;
+	}
+
+	.content p{
+		width: 90%;
 	}
 }
 
@@ -825,6 +844,9 @@ footer{
 @media (max-width: 1024px){
 	.center-line{
 		left: 0%;
+		height: 2200px;
+		width: 38px;
+
 	}
 
 	#lp-section2{
@@ -884,4 +906,68 @@ footer{
 .custom-tabs .nav-tabs p:hover .logo-clear, .custom-tabs .nav-tabs p:focus .logo-clear, .custom-tabs .nav-tabs p:active .logo-clear, .custom-tabs .nav-tabs li a:hover .logo-clear, .custom-tabs .nav-tabs li a:focus .logo-clear, .custom-tabs .nav-tabs li a:active .logo-clear,
 .custom-tabs .nav-tabs li:hover .logo-clear, .custom-tabs .nav-tabs li:focus .logo-clear, .custom-tabs .nav-tabs li:active .logo-clear{
 display: none;
+}
+
+#tabCarousel{
+	display: none;
+	background: #002937;
+}
+
+.mobile-devices{
+	display: none;
+}
+
+@media (max-width: 992px){
+	.custom-tabs, #lp-section1, #lp-section2, #lp-section3{
+		display: none;
+	}
+
+	#tabCarousel, .mobile-devices{
+		visibility: visible;
+		display: block;
+	}
+}
+
+
+@media (max-width:500px) {
+	.banner-excerpt-bottom {
+    background: url(../img/desk-mac-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 470px;
+    top: 57%;
+    width: 100%;
+}
+}
+
+@media (min-width:501px) and (max-width:650px){
+	.banner-excerpt-bottom {
+    background: url(../img/desk-mac-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 470px;
+    top: 53%;
+    width: 100%;
+}
+}
+
+@media (min-width: 651px) and (max-width:768px){
+	.banner-excerpt-bottom {
+    background: url(../img/desk-mac-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 470px;
+    top: 49%;
+    width: 100%;
+}
+}
+
+.angles{
+	background: #454ecd;
 }
