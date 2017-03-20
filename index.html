@@ -14,6 +14,7 @@
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript"  src="js/jquery.scrollme.js"></script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
 
 
 </head>
@@ -266,9 +267,25 @@
 			</div>
 		</div>
 
+
+
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="brandsFlexisel ">
+		<div class="container">
+			<h2>From sporting events to college graduations - EPP is a flexible
+			<br>platform that can be tailored to your event.</h2>
+		</div>
+	<ul id="flexisel1">
+		<li><img src="img/Logos/Ashford_Logo.png"></li>
+		<li><img src="img/Logos/ypo_logo.png"></li>
+		<li><img src="img/Logos/xgames.png"></li>
+		<li><img src="img/Logos/dew_tour.png"></li>
+		<li><img src="img/Logos/city-national-bank.png"></li>
+	</ul>
 </div>
 
 <!-- Integrations -->
@@ -294,6 +311,20 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="brandsFlexisel second-flexisel">
+		<div class="container">
+			<h2>Easily intergrate with any 3rd party service provider</h2>
+
+		</div>
+	<ul id="flexisel2">
+		<li><img src="img/Logos/google_logo.png"></li>
+		<li><img src="img/Logos/mailchimp.png"></li>
+		<li><img src="img/Logos/salesforce.png"></li>
+		<li><img src="img/Logos/paypal.png"></li>
+		<li><img src="img/Logos/ticketmaster.png"></li>
+	</ul>
 </div>
 
 <!-- Contact -->
@@ -374,6 +405,27 @@
 						}
 				});
 
+	$(window).load(function(){
+		$("#flexisel1").flexisel({
+				visibleItems: 4,
+				itemsToScroll: 1,
+				autoPlay: {
+						enable: true,
+						interval: 5000,
+						pauseOnHover: true
+				}
+		});
+
+		$("#flexisel2").flexisel({
+				visibleItems: 4,
+				itemsToScroll: 1,
+				autoPlay: {
+						enable: true,
+						interval: 5000,
+						pauseOnHover: true
+				}
+		});
+	});
 
 </script>
 
