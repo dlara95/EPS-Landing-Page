@@ -90,7 +90,7 @@
 <div class="event-step2 magicDiv">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5 animateme scrollme" id="lp-section2"  data-when="enter" data-from="0.75" data-to="0" data-opacity="0" data-translatex="400">
+			<div class="col-md-5 animateme scrollme" id="lp-section2"  data-when="enter" data-from="0.75" data-to="0" data-opacity="0" data-translatex="-400">
 			</div>
 
 			<div class="col-md-5 col-md-offset-7" data-when="enter" data-from="0.75" data-to="0" data-opacity="0" data-translatex="400">
@@ -137,7 +137,7 @@
 		</div>
 	</div>
 </div>
-<div class="center-line"></div>
+<div class="center-line"><img src="img/elipse.png" alt=""></div>
 </div>
 
 <div class="event-step4 magicDiv " >
@@ -204,6 +204,7 @@
 				<div class="item active">
 					<div id="sports" class="tab-pane  in active">
 						<div class="content">
+							<img width="250px" src="img/logo.png">
 							<h3>Sports Competition</h3>
 						<p>Revolutionize how you register and manage athletes with personalized invitations, digitalized collection of custom data and easy form upload. Communicate to all the right participants at the right time, spotlight sponsors, and align the experience with a mobile app companion.</p>
 
@@ -214,7 +215,9 @@
 
 				<div class="item">
 					<div id="conferences" class="tab-pane ">
-			      <div class="content"><h3>FOR CONFERENCES &amp; TRADE SHOWS</h3>
+			      <div class="content">
+							<img width="250px" src="img/logo.png">
+							<h3>FOR CONFERENCES &amp; TRADE SHOWS</h3>
 			      <p>Transform your event by helping attendees easily navigate through their experience with personalized scheduling, venue maps and keynote speaker information. Make registering easy and communicating to the registered even easier. </p>
 			      </div>
 			    </div>
@@ -222,7 +225,9 @@
 
 				<div class="item">
 					<div id="communities" class="tab-pane ">
-			      <div class="content"><h3>for COMMUNITIES &amp; GROUPS</h3>
+			      <div class="content">
+							<img width="250px" src="img/logo.png">
+							<h3>for COMMUNITIES &amp; GROUPS</h3>
 			      <p>Connect in meaningful and relevant ways. Keep your organization  engaged all year long and generate a sense of community with up to date information on what’s going on. Boost authentic activity with custom messaging and private social media streams.</p>
 			      </div>
 			    </div>
@@ -231,6 +236,7 @@
 				<div class="item">
 					<div id="destinations" class="tab-pane">
 					<div class="content">
+						<img width="250px" src="img/logo.png">
 						<h3>for Destinations</h3>
 						<p>Elevate the experience by providing a convenient and useful tool for guests to best experience your destination. Encourage visitors to build a custom itinerary of top places to visit and how to get there all while driving social engagement and shares. </p>
 						</div>
@@ -401,7 +407,7 @@
 					var pointScroll = offset.top - 100;
 						if(scroll > pointScroll){
 							$('.center-line').css("display", "block");
-							$('.center-line').addClass('animated').addClass('slideInDown');
+							$('.center-line img').addClass('animated').addClass('slideInDown');
 						}
 				});
 
