@@ -232,6 +232,9 @@ header a:hover, header a:focus{
     letter-spacing: 1.1px;
 
 }
+.custom-tabs .nav-tabs>li:first-child{
+background: #bb3537;
+}
 .custom-tabs .nav-tabs>li:nth-child(2){
 	background: #002938;
 
@@ -252,21 +255,36 @@ header a:hover, header a:focus{
 }
 
 .custom-tabs .nav-tabs>li:hover p{
-	color: red !important;
+	color: #b9252b !important;
 }
 .custom-tabs .nav-tabs>li>a:hover, .custom-tabs .nav-tabs>li>a:focus, .custom-tabs .nav-tabs>li>a:active{
 	background: #fff !important;
 }
 
-.custom-tabs .nav-tabs>li>a:hover p, .custom-tabs .nav-tabs>li>a:focus p, .custom-tabs .nav-tabs>li>a:active p{
-	color: red;
+
+
+
+.custom-tabs .nav-tabs .active:first-child p, .custom-tabs .nav-tabs li:first-child a:focus p,
+.custom-tabs .nav-tabs li:first-child a:active p, .custom-tabs .nav-tabs li:first-child a:hover p{
+	color: #b9252b !important;
 }
 
-
-.custom-tabs .nav-tabs .active p{
-	color: red !important;
+.custom-tabs .nav-tabs .active:nth-child(2) p, .custom-tabs .nav-tabs li:nth-child(2) a:focus p,
+.custom-tabs .nav-tabs li:nth-child(2) a:active p, .custom-tabs .nav-tabs li:nth-child(2) a:hover p{
+	color: #002938 !important;
+}
+.custom-tabs .nav-tabs .active:nth-child(3) p, .custom-tabs .nav-tabs li:nth-child(3) a:focus p,
+.custom-tabs .nav-tabs li:nth-child(3) a:active p, .custom-tabs .nav-tabs li:nth-child(3) a:hover p{
+	color: #207b2f !important;
 }
 
+.custom-tabs .nav-tabs .active:nth-child(4) p, .custom-tabs .nav-tabs li:nth-child(4) a:focus p,
+.custom-tabs .nav-tabs li:nth-child(4) a:active p, .custom-tabs .nav-tabs li:nth-child(4) a:hover p{
+	color: #662d91 !important;
+}
+.custom-tabs .nav-tabs .active img{
+
+}
 .custom-tabs .nav-tabs .active{
 	background: #fff !important;
 }
@@ -275,11 +293,37 @@ header a:hover, header a:focus{
 	display: block;
 }
 
-.custom-tabs .tab-pane{
+.custom-tabs #sports{
 	background: url("../img/red-bg.png");
 	background-position: center bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.custom-tabs #conferences{
+	background: url("../img/tab2-bg.png");
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.custom-tabs #communities{
+
+		background: url("../img/tab3-bg.png");
+		background-position: center bottom;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+.custom-tabs #destinations{
+
+		background: url("../img/tab4-bg.png");
+		background-position: center bottom;
+		background-size: cover;
+		background-repeat: no-repeat;
+
 }
 
 .content{
@@ -816,4 +860,23 @@ footer{
 	.tab-bottom{
 		bottom: -24px !important;
 	}
+}
+
+
+.logo-dark{
+	display: none;
+
+}
+.active .logo-clear{
+	display: none;
+}
+.active .logo-dark{
+	display: inline;
+}
+.custom-tabs .nav-tabs p:hover .logo-dark, .custom-tabs .nav-tabs p:focus .logo-dark, .custom-tabs .nav-tabs p:active .logo-dark, .custom-tabs .nav-tabs li a:hover .logo-dark, .custom-tabs .nav-tabs li a:focus .logo-dark, .custom-tabs .nav-tabs li a:active .logo-dark{
+	display: inline;
+}
+
+.custom-tabs .nav-tabs p:hover .logo-clear, .custom-tabs .nav-tabs p:focus .logo-clear, .custom-tabs .nav-tabs p:active .logo-clear, .custom-tabs .nav-tabs li a:hover .logo-clear, .custom-tabs .nav-tabs li a:focus .logo-clear, .custom-tabs .nav-tabs li a:active .logo-clear{
+display: none;
 }
