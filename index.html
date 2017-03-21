@@ -137,7 +137,7 @@
 		</div>
 	</div>
 </div>
-<div class="center-line"><img src="img/elipse.png" alt=""></div>
+<div class="center-line"><img id="elipse1" src="img/elipse.png" alt=""><img id="elipse2" src="img/elipse.png" alt=""><img id="elipse3" src="img/elipse.png" alt=""></div>
 </div>
 
 <div class="event-step4 magicDiv " >
@@ -404,10 +404,25 @@
 				$(window).scroll(function(){
 					var scroll = $(window).scrollTop();
 					var offset = $(".time-bg").offset();
+					var offset2 = $(".event-step2").offset();
+					var offset3 = $(".event-step3").offset();
 					var pointScroll = offset.top - 100;
+					var pointScroll2 = offset2.top - 150;
+					var pointScroll3 = offset3.top - 150;
 						if(scroll > pointScroll){
 							$('.center-line').css("display", "block");
-							$('.center-line img').addClass('animated').addClass('slideInDown');
+							$('#elipse1').css("display", "block");
+							$('#elipse1').addClass('animated').addClass('slideInDown');
+						}
+
+						if(scroll > pointScroll2){
+							$('#elipse2').css("display", "block");
+							$('#elipse2').addClass('animated').addClass('slideInDown');
+						}
+
+						if(scroll > pointScroll3){
+							$('#elipse3').css("display", "block");
+							$('#elipse3').addClass('animated').addClass('slideInDown');
 						}
 				});
 

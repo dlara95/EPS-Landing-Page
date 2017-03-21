@@ -1197,3 +1197,22 @@ display:none;
 #tabCarousel .content{
 	padding: 70px 0 !important;
 }
+
+
+#elipse1{
+	position: absolute;
+	top: 0;
+	display: none;
+}
+
+#elipse2{
+	position: absolute;
+	top: 50%;
+	display: none;
+}
+
+#elipse3{
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
