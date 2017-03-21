@@ -684,6 +684,7 @@ footer{
     top: -14%;
     background-size: cover;
     background-repeat: no-repeat;
+		    background-position: center right;
 
 }
 #lp-section3{
@@ -737,10 +738,10 @@ footer{
 	}
 
 	.time-bg{
-		height: 1200px;
+		height: 1300px;
 	}
 
-	.event-step2{height: 1300px;}
+	.event-step2{height: 1400px;}
 
 	.contact a{
 		margin-left: 0;
@@ -915,6 +916,7 @@ display: none;
 
 .mobile-devices{
 	display: none;
+	margin: 50px 0;
 }
 
 @media (max-width: 992px){
@@ -1215,4 +1217,11 @@ display:none;
 	position: absolute;
 	bottom: 0;
 	display: none;
+}
+
+
+@media (max-width:992px){
+	#elipse1, #elipse2, #elipse3{
+		left: 12%;
+	}
 }
