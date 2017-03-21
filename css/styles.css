@@ -162,6 +162,7 @@ header a:hover, header a:focus{
 	background-repeat: no-repeat;
 	background-size: cover;
 	/*background: #1d429c;*/
+	height: 700px;
 }
 
 .event-step4{

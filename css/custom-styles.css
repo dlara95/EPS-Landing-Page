@@ -178,7 +178,7 @@ header a:hover, header a:focus{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	    padding-top: 19.5%;
+	    padding-top: 8%;
 	    padding-bottom: 94px;
 
 }
@@ -1254,4 +1254,11 @@ display:none;
 
 .event-step4 .col-md-12{
 	display: none;
+}
+.admindiv {
+	position: relative;
+	z-index: 100;
+}
+.event-step3 {
+	height: 700px;
 }
