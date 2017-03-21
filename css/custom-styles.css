@@ -762,7 +762,7 @@ footer{
 	}
 
 	.event-step4{
-		padding-top: 70%;
+		padding-top: 20%;
 	}
 	.event-step4 h1{
 		font-size: 40px;
@@ -1230,6 +1230,10 @@ display:none;
 	}
 	.pre-event h3, .event-step2 h3, .event-step3 h3 {
     width: 75% !important;
+}
+
+.event-step3{
+	height: 1000px !important;
 }
 
 }
