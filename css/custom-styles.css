@@ -1225,6 +1225,12 @@ display:none;
 		left: 12%;
 	}
 
+	.pre-event h3, .event-step2 h3, .event-step3 h3{
+		font-size: 1.9em !important;
+	}
+	.pre-event h3, .event-step2 h3, .event-step3 h3 {
+    width: 75% !important;
+}
 
 }
 
@@ -1232,4 +1238,20 @@ display:none;
 	.slide1, .slide2, .slide3, .slide4{
 		height: 650px;
 	}
+}
+@media (min-width:993px) and (max-width: 1200px){
+	.pre-event h3, .event-step2 h3, .event-step3 h3 {
+			width: 70% !important;
+	}
+
+}
+@media (min-width:1201px) and (max-width: 1550px){
+	.pre-event h3, .event-step2 h3, .event-step3 h3 {
+			width: 60% !important;
+	}
+
+}
+
+.event-step4 .col-md-12{
+	display: none;
 }
