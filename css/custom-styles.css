@@ -947,7 +947,7 @@ display: none;
     background-size: contain;
     position: absolute;
     height: 470px;
-    top: 57%;
+    top: 39%;
     width: 100%;
 }
 }
@@ -960,7 +960,7 @@ display: none;
     background-size: contain;
     position: absolute;
     height: 470px;
-    top: 53%;
+    top: 33%;
     width: 100%;
 }
 }
@@ -1223,5 +1223,13 @@ display:none;
 @media (max-width:992px){
 	#elipse1, #elipse2, #elipse3{
 		left: 12%;
+	}
+
+
+}
+
+@media (max-width:650px){
+	.slide1, .slide2, .slide3, .slide4{
+		height: 650px;
 	}
 }
