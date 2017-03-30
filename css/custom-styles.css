@@ -883,6 +883,7 @@ footer{
 @media (min-width: 1025px) and (max-width: 1500px){
 	.custom-tabs .nav-tabs>li p{
 		font-size: 23px;
+		line-height: 23px;
 	}
 	.tab-bottom{
 		bottom: -24px !important;
@@ -1190,7 +1191,7 @@ display:none;
 	padding-top: 300px !important;
 }
 
-@media (max-width: 767px){
+/*@media (max-width: 767px){
 	.brandsFlexisel{
 		display: block;
 	}
@@ -1198,7 +1199,7 @@ display:none;
 	.brands, .integrations{
 		display: none;
 	}
-}
+}*/
 
 #tabCarousel .content{
 	padding: 70px 0 !important;
@@ -1322,6 +1323,10 @@ display:none;
 .mobile-devices{
 	height: 400px;
 }
+
+.event-step3{
+	    padding-left: 50px;
+}
 }
 
 @media (max-width: 768px){
@@ -1332,6 +1337,23 @@ display:none;
 
 .pre-event h3, .event-step2 h3, .event-step3 h3 {
     width: 63% !important;
+}
+
+.angles .container{
+	padding-left: 30px;
+}
+
+.brand-item{
+	width: 20%;
+}
+
+.brands img, .integrations img{
+	max-width: 50px;
+}
+
+.brands-container, .integrations .brands-container{
+	margin-top: 0 !important;
+	padding-bottom: 0 !important;
 }
 
 }
