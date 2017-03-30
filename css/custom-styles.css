@@ -741,7 +741,7 @@ footer{
 		height: 1300px;
 	}
 
-	.event-step2{height: 1400px;}
+	.event-step2{height: 1200px;}
 
 	.contact a{
 		margin-left: 0;
@@ -755,6 +755,7 @@ footer{
 	.bf-first, .bf-second{
 		padding: 0 !important;
 		text-align: center;
+		line-height: 3.5em;
 	}
 
 	.brands img, .integrations img{
@@ -762,7 +763,7 @@ footer{
 	}
 
 	.event-step4{
-		padding-top: 20%;
+		padding-top: 10%;
 	}
 	.event-step4 h1{
 		font-size: 40px;
@@ -929,6 +930,8 @@ display: none;
 		display: block;
 	}
 
+
+
 	.content h3{
 		font-size: 30px;
 	}
@@ -947,7 +950,7 @@ display: none;
     background-size: contain;
     position: absolute;
     height: 470px;
-    top: 39%;
+    top: 40%;
     width: 100%;
 }
 }
@@ -1106,6 +1109,7 @@ display:none;
     overflow: hidden;
     float:left;
     width:100%;
+		    background: #70309d;
 
 }
 
@@ -1186,7 +1190,7 @@ display:none;
 	padding-top: 300px !important;
 }
 
-@media (max-width: 992px){
+@media (max-width: 767px){
 	.brandsFlexisel{
 		display: block;
 	}
@@ -1233,7 +1237,7 @@ display:none;
 }
 
 .event-step3{
-	height: 1000px !important;
+	height: 1050px !important;
 }
 
 }
@@ -1272,4 +1276,68 @@ display:none;
 }
 .event-step3 {
 	height: 700px;
+}
+
+
+#elipse1{
+	background: #257dd7 !important;
+}
+
+#elipse2{
+	background: #4950d4 !important;
+}
+
+#elipse3{
+	    background: #2f39b5 !important;
+}
+
+
+/* NEW CHANGES */
+
+.contact{
+	clear: both;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.brands .container, .integrations .container{
+		width: 100%;
+	}
+
+	.brands img, .integrations img{
+		max-width: 150px;
+	}
+
+	.brand-item{
+		width: 20%;
+	}
+
+	.pre-event h3, .event-step2 h3, .event-step3 h3 {
+    width: 40% !important;
+}
+
+.center-line{
+	left: 2%;
+}
+
+.mobile-devices{
+	height: 400px;
+}
+}
+
+@media (max-width: 768px){
+
+.event-step2 {
+    height: 1400px;
+}
+
+.pre-event h3, .event-step2 h3, .event-step3 h3 {
+    width: 63% !important;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+	.pre-event h3, .event-step2 h3, .event-step3 h3 {
+    width: 43% !important;
+}
 }
