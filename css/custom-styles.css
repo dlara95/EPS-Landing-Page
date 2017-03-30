@@ -1382,3 +1382,9 @@ display:none;
 }
 
 }
+
+@media (max-width:400px) {
+	.pre-event h3, .event-step2 h3, .event-step3 h3 {
+    width: 81% !important;
+}
+}
