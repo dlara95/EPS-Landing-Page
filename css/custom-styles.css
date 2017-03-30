@@ -851,7 +851,7 @@ footer{
 
 	}
 
-	
+
 }
 
 
@@ -1297,7 +1297,7 @@ display:none;
 	clear: both;
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 1024px){
 	.brands .container, .integrations .container{
 		width: 100%;
 	}
@@ -1313,7 +1313,9 @@ display:none;
 	.pre-event h3, .event-step2 h3, .event-step3 h3 {
     width: 40% !important;
 }
-
+#lp-section2{
+	top: 2%;
+}
 .center-line{
 	left: 2%;
 }
@@ -1367,6 +1369,14 @@ display:none;
 
 #elipse1, #elipse2, #elipse3 {
     left: 12%;
+}
+
+}
+
+
+@media (max-width: 1200px) and (min-width: 993px){
+.pre-event h3, .event-step2 h3, .event-step3 h3 {
+    width: 70% !important;
 }
 
 }
