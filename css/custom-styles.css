@@ -1327,6 +1327,14 @@ display:none;
 .event-step3{
 	    padding-left: 50px;
 }
+
+.event-step2 .col-md-5.col-md-offset-7 {
+    padding-left: 0;
+}
+
+.event-step2{
+	height: 950px;
+}
 }
 
 @media (max-width: 768px){
