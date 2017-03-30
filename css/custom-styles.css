@@ -1363,3 +1363,12 @@ display:none;
     width: 43% !important;
 }
 }
+
+
+@media (max-width: 1024px){
+
+#elipse1, #elipse2, #elipse3 {
+    left: 12%;
+}
+
+}
