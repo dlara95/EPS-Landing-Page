@@ -1412,3 +1412,68 @@ display:none;
 		    bottom: -24px !important;
 		}
 }
+
+
+#contactModal input[type="text"] {
+    display: inline-block;
+    background: none;
+    border: 1.5px solid #BBBBBB;
+    width: 100%;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    font-size: .9em;
+    color: #BBBBBB;
+    margin-bottom: 1.5em;
+}
+#contactModal input[type="email"] {
+    display: inline-block;
+    background: none;
+    border: 1.5px solid #BBBBBB;
+    width: 100%;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    font-size: .9em;
+    color: #BBBBBB;
+    margin: 0 0 1.5em 0;
+}
+#contactModal textarea {
+    background: none;
+    border: 1.5px solid #BBBBBB;
+    width: 100%;
+    display: block;
+    height: 150px;
+    outline: none;
+    font-size: 0.9em;
+    color: #BBBBBB;
+    resize: none;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 1em;
+}
+button.btn1{
+    border: solid 2px #383838;
+    color: #383838;
+    font-size: .875em;
+    padding: .5em 2em;
+    text-decoration: none;
+    background: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.modal-title{
+	text-transform: uppercase;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: bold;
+color: #4dd2ff;
+}
+
+
+.modal-content{
+	border: none !important;
+border-radius: 0 !important;
+box-shadow: none !important;
+}

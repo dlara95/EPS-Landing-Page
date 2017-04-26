@@ -35,7 +35,7 @@
   				<img src="img/logo.png">
   			</div>
   			<div class="col-md-9 header-second">
-  				<p>THE COMPLETE EVENT MANAGMENT SOLUTION <a href="mailto:sales@eventpasspro.com">Contact US</a></p>
+  				<p>THE COMPLETE EVENT MANAGMENT SOLUTION <a href="#" data-toggle="modal" data-target="#contactModal">Contact US</a></p>
   			</div>
   		</div>
   	</div>
@@ -346,12 +346,34 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p><strong>Want to learn more?</strong> Lets chat. <a href="mailto:sales@eventpasspro.com">Contact us</a></p>
+				<p><strong>Want to learn more?</strong> Lets chat. <a href="#" data-toggle="modal" data-target="#contactModal">Contact us</a></p>
 			</div>
 		</div>
 	</div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+      </div>
+      <div class="modal-body">
+				<form action="mailto:sales@eventpasspro.com" method="post" enctype="text/plain">
+							<input type="text" name="Name" placeholder="Name" required="" >
+							<input type="text" name="Company" placeholder="Company" required="" >
+							<input type="email" name="Email" placeholder="Email" required="">
+
+							<textarea name="Message" placeholder="Brief Description" required=""></textarea>
+							<button class="btn1">Send</button>
+						</form>
+      </div>
+
+    </div>
+  </div>
+</div>
 <!-- Footer -->
 
 <footer >
